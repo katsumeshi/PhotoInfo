@@ -1,0 +1,10 @@
+framework module ReactiveUI {
+  umbrella header "ReactiveUI.h"
+
+  export *
+  module * { export * }
+}
+
+module ReactiveUI.Swift {
+    header "ReactiveUI-Swift.h"
+}

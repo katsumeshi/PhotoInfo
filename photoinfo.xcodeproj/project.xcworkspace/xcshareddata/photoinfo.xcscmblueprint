@@ -1,0 +1,93 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "141FD31BA2F510550DE26FEE978F8210378A5A37",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DDDD3D37D7CCD19F0D70EC10FC8371F903F6DC04" : 0,
+    "CBE2184924364A7B66AFD2EF854E37A0FA2AF367" : 0,
+    "71E54856118FEF20C70193AC8A09A7DCFE692546" : 0,
+    "AA13BAAA3119223FB82588F9F3172FD5A6384CC7" : 0,
+    "7E0A2B282D59DAB5C420F945E007C003F321D307" : 0,
+    "54D93FB37751B5E01F31E7AF93E8DA18ABB07A90" : 0,
+    "141FD31BA2F510550DE26FEE978F8210378A5A37" : 0,
+    "47855AB319645DA9788250B7B5CF510AB67B85CA" : 0,
+    "7BF0AB4B37C6A557359548A1D6C8B08D504C999F" : 0,
+    "88FB2A8070762849903B0639E807FC63B1407B1F" : 0,
+    "C226A4C9EA8596C4594B07CBB4E8600DFA1C1654" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4BCAAD26-6F0C-46E8-A3A7-A7788E960164",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DDDD3D37D7CCD19F0D70EC10FC8371F903F6DC04" : "irooni\/",
+    "CBE2184924364A7B66AFD2EF854E37A0FA2AF367" : "youtube\/",
+    "71E54856118FEF20C70193AC8A09A7DCFE692546" : "escape\/",
+    "AA13BAAA3119223FB82588F9F3172FD5A6384CC7" : "..\/Study\/rails_projects\/sample_app",
+    "7E0A2B282D59DAB5C420F945E007C003F321D307" : "dictionary\/",
+    "54D93FB37751B5E01F31E7AF93E8DA18ABB07A90" : "..\/blog\/themes\/vienna",
+    "141FD31BA2F510550DE26FEE978F8210378A5A37" : "photomap\/",
+    "47855AB319645DA9788250B7B5CF510AB67B85CA" : "..\/blog",
+    "7BF0AB4B37C6A557359548A1D6C8B08D504C999F" : "sakusaku\/",
+    "88FB2A8070762849903B0639E807FC63B1407B1F" : "..\/Study\/rails_projects\/first_app",
+    "C226A4C9EA8596C4594B07CBB4E8600DFA1C1654" : "..\/Study\/rails_projects\/demo_app"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "photoinfo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "photoinfo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:katsumeshi\/photomap.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "141FD31BA2F510550DE26FEE978F8210378A5A37"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:katsumeshi\/blog.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "47855AB319645DA9788250B7B5CF510AB67B85CA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/keichi\/vienna",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "54D93FB37751B5E01F31E7AF93E8DA18ABB07A90"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:katsumeshi\/escape.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "71E54856118FEF20C70193AC8A09A7DCFE692546"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:katsumeshi\/sakusaku.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7BF0AB4B37C6A557359548A1D6C8B08D504C999F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:katsumeshi\/dictionary.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7E0A2B282D59DAB5C420F945E007C003F321D307"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:katsumeshi\/first_app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88FB2A8070762849903B0639E807FC63B1407B1F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:katsumeshi\/sample_app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AA13BAAA3119223FB82588F9F3172FD5A6384CC7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:katsumeshi\/demo_app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C226A4C9EA8596C4594B07CBB4E8600DFA1C1654"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:katsumeshi\/youtube.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CBE2184924364A7B66AFD2EF854E37A0FA2AF367"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:katsumeshi\/irooni.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DDDD3D37D7CCD19F0D70EC10FC8371F903F6DC04"
+    }
+  ]
+}

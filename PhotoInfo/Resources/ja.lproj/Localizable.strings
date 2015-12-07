@@ -1,0 +1,451 @@
+
+"{TIFF}"			= "TIFF のプロパティ";
+"{GIF}"				= "GIF のプロパティ";
+"{JFIF}"			= "JFIF のプロパティ";
+"{Exif}"			= "Exif のプロパティ";
+"{PNG}"				= "PNG のプロパティ";
+"{IPTC}"			= "IPTC のプロパティ";
+"{GPS}"				= "GPS のプロパティ";
+"{Raw}"				= "Raw のプロパティ";
+"{CIFF}"			= "キヤノン プロパティ";
+"{MakerCanon}"			= "キヤノン メーカーノート";
+"{MakerNikon}"			= "ニコン メーカーノート";
+"{MakerMinolta}"		= "Minolta メーカーノート";
+"{MakerFuji}"			= "Fuji メーカーノート";
+"{MakerOlympus}"		= "Olympus メーカーノート";
+"{MakerPentax}"			= "Pentax メーカーノート";
+"{8BIM}"			= "Photoshop のプロパティ";
+"{DNG}"				= "DNG のプロパティ";
+"{ExifAux}"			= "Exif の補助プロパティ";
+"GENERAL"           = "一般";
+
+"FileSize"			= "ファイルサイズ";
+
+"DPIHeight"			= "高さ（DPI）";
+"DPIWidth"			= "幅（DPI）";
+"PixelHeight"			= "高さ（ピクセル）";
+"PixelWidth"			= "幅（ピクセル）";
+"Depth"				= "ビット深度";
+"Orientation"			= "画像方向";
+"IsFloat"			= "浮動小数";
+"IsIndexed"			= "インデックス";
+"HasAlpha"			= "アルファチャネル";
+"ColorModel"			= "カラーモデル";
+"ProfileName"			= "プロファイル名";
+
+"public.tiff"			= "TIFF";
+"public.fax"			= "ファクス";
+"public.jpeg"			= "JPEG";
+"public.jpeg-2000"		= "JPEG-2000";
+"public.png"			= "PNG";
+"public.radiance"		= "Radiance";
+"public.xbitmap-image"          = "X ビットマップ";
+
+"com.apple.pict"		= "PICT";
+"com.apple.quicktime-image"	= "QuickTime";
+"com.apple.macpaint-image"      = "MacPaint";
+"com.apple.icns"		= "ICNS";
+
+"com.adobe.pdf"			= "PDF";
+"com.adobe.photoshop-image"	= "Photoshop";
+
+"com.compuserve.gif"		= "GIF";
+"com.ilm.openexr-image"		= "OpenEXR";
+"com.microsoft.ico"		= "Microsoft アイコン";
+"com.microsoft.cur"		= "Microsoft カーソル";
+"com.microsoft.bmp"		= "Microsoft BMP";
+"com.sgi.sgi-image"		= "SGI";
+"com.truevision.tga-image"	= "TGA";
+"com.kodak.flashpix-image"      = "FlashPix";
+
+"public.camera-raw-image"       = "Camera Raw";
+"com.adobe.raw-image"		= "Adobe Raw";
+"com.canon.crw-raw-image"       = "Canon CRW Raw";
+"com.canon.cr2-raw-image"       = "Canon CR2 Raw";
+"com.canon.tif-raw-image"       = "Canon TIF Raw";
+"com.nikon.raw-image"		= "Nikon Raw";
+"com.olympus.raw-image"		= "Olympus Raw";
+"com.fuji.raw-image"		= "Fuji Raw";
+"com.sony.raw-image"		= "Sony Raw";
+"com.sony.sr2-raw-image"	= "Sony SR2 Raw";
+"com.sony.arw-raw-image"	= "Sony Alpha Raw";
+"com.konicaminolta.raw-image"   = "Konica Minolta Raw";
+"com.kodak.raw-image"		= "Kodak Raw";
+"com.panasonic.raw-image"	= "Panasonic Raw";
+"com.leica.raw-image"		= "Leica Raw";
+"com.leafamerica.raw-image"	= "Leaf Raw";
+"com.pentax.raw-image"		= "Pentax Raw";
+"com.hasselblad.fff-raw-image"	= "Hasselblad FFF Raw";
+"com.hasselblad.3fr-raw-image"	= "Hasselblad 3FF Raw";
+"com.epson.erf-raw-image"	= "Epson Raw";
+
+"RGB"				= "RGB";
+"Gray"				= "グレイ";
+"CMYK"				= "CMYK";
+"Lab"				= "Lab";
+
+"Compression"			= "圧縮の種類";
+"PhotometricInterpretation"	= "画素構成";
+"DocumentName"			= "書類の名前";
+"ImageDescription"		= "画像タイトル";
+"Make"				= "画像入力機器のメーカー名";
+"Model"				= "画像入力機器のモデル名";
+"XResolution"			= "画像の幅の解像度";
+"YResolution"			= "画像の高さの解像度";
+"ResolutionUnit"		= "画像の幅と高さの解像度の単位";
+"Software"			= "使用ソフトウェア名";
+"TransferFunction"		= "再生階調カーブ特性";
+"DateTime"			= "日時";
+"Artist"			= "アーティスト";
+"HostComputer"			= "ホストコンピュータ";
+"Copyright"			= "コピーライト";
+"WhitePoint"			= "ホワイトポイント";
+"PrimaryChromaticities"		= "原色の色度座標値";
+
+"JFIFVersion"			= "JFIF バージョン";
+"XDensity"			= "幅の密度";
+"YDensity"			= "高さの密度";
+"DensityUnit"			= "密度の単位";
+"IsProgressive"                 = "プログレッシブ";
+
+"ExposureTime"			= "露出時間";
+"FNumber"			= "F値";
+"ExposureProgram"		= "露出プログラム";
+"SpectralSensitivity"		= "スペクトル感度";
+"ISOSpeedRatings"		= "ISO感度";
+"OECF"				= "OECF";
+"ExifVersion"			= "Exif バージョン";
+"DateTimeOriginal"		= "原画像データの生成日時";
+"DateTimeDigitized"		= "デジタルデータの作成日時";
+"ComponentsConfiguration"       = "各コンポーネント";
+"CompressedBitsPerPixel"	= "画像圧縮モード";
+"ShutterSpeedValue"		= "シャッタースピード";
+"ApertureValue"			= "絞り値";
+"BrightnessValue"		= "輝度値";
+"ExposureBiasValue"		= "露出補正値";
+"MaxApertureValue"		= "レンズ最小 F 値";
+"SubjectDistance"		= "被写体距離";
+"MeteringMode"			= "測光方式";
+"LightSource"			= "光源";
+"Flash"				= "フラッシュ";
+"FocalLength"			= "レンズ焦点距離";
+"SubjectArea"			= "被写体領域";
+"MakerNote"			= "製造元のメモ";
+"UserComment"			= "ユーザのコメント";
+"SubsecTime"			= "ファイル変更日時のサブセック";
+"SubsecTimeOriginal"		= "原画像生成日時のサブセック";
+"SubsecTimeDigitized"		= "デジタル化日時のサブセック";
+"FlashPixVersion"		= "対応 FlashPix バージョン";
+"ColorSpace"			= "色空間情報";
+"PixelXDimension"		= "実効画像幅";
+"PixelYDimension"		= "実効画像高さ";
+"RelatedSoundFile"		= "関連サウンドファイル";
+"FlashEnergy"			= "フラッシュ強度";
+"SpatialFrequencyResponse"      = "空間周波数応答";
+"FocalPlaneXResolution"		= "焦点面の幅の解像度";
+"FocalPlaneYResolution"		= "焦点面の高さの解像度";
+"FocalPlaneResolutionUnit"      = "焦点面解像度単位";
+"SubjectLocation"		= "被写体位置";
+"ExposureIndex"			= "露出インデックス";
+"SensingMethod"			= "センサー方式";
+"FileSource"			= "ファイルソース";
+"SceneType"			= "シーンタイプ";
+"CFAPattern"			= "CFA パターン";
+"CustomRendered"		= "個別画像処理";
+"ExposureMode"			= "露出モード";
+"WhiteBalance"			= "ホワイトバランス";
+"DigitalZoomRatio"		= "デジタルズーム倍率";
+"FocalLenIn35mmFilm"		= "35 mm 換算レンズ焦点距離";
+"SceneCaptureType"		= "撮影シーンタイプ";
+"GainControl"			= "ゲイン制御";
+"Contrast"			= "撮影コントラスト";
+"Saturation"			= "撮影彩度";
+"Sharpness"			= "撮影シャープネス";
+"DeviceSettingDescription"      = "撮影条件記述情報";
+"SubjectDistRange"		= "被写体距離レンジ";
+"ImageUniqueID"			= "画像ユニーク ID";
+
+"LensInfo"			= "レンズ情報";
+"LensModel"			= "レンズモデル";
+"LensMake"			= "レンズメーカー";
+"SerialNumber"			= "シリアル番号";
+"LensID"			= "レンズ ID";
+"LensSerialNumber"		= "レンズのシリアル番号";
+"ImageNumber"			= "イメージ番号";
+"FlashCompensation"		= "フラッシュ補正";
+"OwnerName"			= "オーナー名";
+"Firmware"			= "ファームウェア";
+
+"LoopCount"			= "繰り返し回数";
+"DelayTime"			= "遅延時間";
+"ImageColorMap"			= "イメージ・カラー・マップ";
+"HasGlobalColorMap"		= "グローバル・カラー・マップ";
+
+"Gamma"				= "ガンマ";
+"InterlaceType"			= "インターレースの種類";
+"XPixelsPerMeter"		= "幅（ピクセル／メートル）";
+"YPixelsPerMeter"		= "高さ（ピクセル／メートル）";
+"sRGBIntent"			= "sRGB インテント";
+"Chromaticities"		= "色度";
+
+"GPSVersion"			= "GPS バージョン";
+"LatitudeRef"			= "北緯／南緯";
+"Latitude"			= "緯度";
+"LongitudeRef"			= "東経／西経";
+"Longitude"			= "経度";
+"AltitudeRef"			= "高度の基準";
+"Altitude"			= "高度";
+"TimeStamp"			= "タイムスタンプ";
+"Satellites"			= "測位用衛生信号";
+"Status"			= "GPS 受信機の状態";
+"MeasureMode"			= "測位方法";
+"DOP"				= "測位の信頼性";
+"SpeedRef"			= "速度の単位";
+"Speed"				= "速度";
+"TrackRef"			= "進行方向の単位";
+"Track"				= "進行方向";
+"ImgDirectionRef"		= "撮影画像方向の単位";
+"ImgDirection"			= "撮影画像方向";
+"MapDatum"			= "測位用地図データ";
+"DestLatitudeRef"		= "目的地の北緯／南緯";
+"DestLatitude"			= "目的地の緯度";
+"DestLongitudeRef"		= "目的地の東経／西経";
+"DestLongitude"			= "目的地の経度";
+"DestBearingRef"		= "目的地の方角の単位";
+"DestBearing"			= "目的地の方角";
+"DestDistanceRef"		= "目的地までの距離の単位";
+"DestDistance"			= "目的地までの距離";
+"ProcessingMethod"		= "測位方式の名称";
+"AreaInformation"		= "測位地点の名称";
+"DateStamp"			= "GPS日付";
+"Differential"			= "GPS補正測位";
+
+"ObjectTypeReference"		= "オブジェクトタイプの参照";
+"ObjectAttributeReference"	= "ジャンル";
+"ObjectName"			= "タイトル";
+"EditStatus"			= "編集の状況";
+"EditorialUpdate"		= "編集上の更新";
+"Urgency"			= "重要性";
+"SubjectReference"		= "IPTC サブジェクトコード";
+"Category"			= "カテゴリ";
+"SupplementalCategory"		= "補足カテゴリ";
+"FixtureIdentifier"		= "慣例的内容の識別子";
+"Keywords"			= "キーワード";
+"ContentLocationCode"		= "事象が起きた国のコード";
+"ContentLocationName"		= "事象が起きた国の名前";
+"ReleaseDate"			= "発表の日付";
+"ReleaseTime"			= "発表の時刻";
+"ExpirationDate"		= "公開終了の日付";
+"ExpirationTime"		= "公開終了の時刻";
+"SpecialInstructions"		= "編集注記";
+"ActionAdvised"			= "指示";
+"ReferenceService"		= "参照サービス";
+"ReferenceDate"			= "参照日付";
+"ReferenceNumber"		= "参照番号";
+"DateCreated"			= "事象が起きた日付";
+"TimeCreated"			= "事象が起きた時刻";
+"DigitalCreationDate"		= "デジタル化された日付";
+"DigitalCreationTime"		= "デジタル化された日時";
+"OriginatingProgram"		= "作成用プログラム";
+"ProgramVersion"		= "作成用プログラムのバージョン";
+"ObjectCycle"			= "オブジェクトサイクル";
+"Byline"			= "作成者";
+"BylineTitle"			= "作成者職名";
+"City"				= "地名";
+"SubLocation"			= "撮影場所";
+"Province/State"		= "撮影地域";
+"Country/PrimaryLocationCode"	= "ISO 国コード";
+"Country/PrimaryLocationName"	= "国";
+"OriginalTransmissionReference"	= "ジョブ番号";
+"Headline"			= "見出し";
+"Credit"			= "プロバイダー";
+"Source"			= "情報提供";
+"CopyrightNotice"		= "コピーライト情報";
+"Contact"			= "連絡先";
+"Caption/Abstract"		= "キャプション、説明文";
+"Writer/Editor"			= "キャプション／作成者";
+"ImageType"			= "画像のタイプ";
+"ImageOrientation"		= "画像方向";
+"LanguageIdentifier"		= "言語識別子";
+"CreatorContactInfo"		= "作成者の連絡先";
+"UsageTerms"			= "著作使用条件";
+"Scene"				= "IPTC シーン";
+
+"CiAdrCity"                     = "作成者（都市）";
+"CiAdrCtry"                     = "作成者（国）";
+"CiAdrExtadr"                   = "作成者（住所";
+"CiAdrPcode"                    = "作成者（郵便番号）";
+"CiAdrRegion"                   = "作成者（州／都道府県）";
+"CiEmailWork"                   = "作成者（メール）";
+"CiTelWork"                     = "作成者（電話）";
+"CiUrlWork"                     = "作成者（Web URL）";
+
+"LayerNames"			= "レイヤー名";
+
+"DNGVersion"			= "DNG バージョン";
+"DNGBackwardVersion"		= "DNG 後方バージョン";
+"UniqueCameraModel"		= "カメラの固有機種名";
+"LocalizedCameraModel"		= "各国語版のカメラ機種名";
+"CameraSerialNumber"		= "カメラのシリアル番号";
+
+"Description"			= "説明";
+
+"ImageName"			= "画像名";
+"ImageFileName"			= "画像ファイル名";
+"ReleaseMethod"			= "リリース方法";
+"ReleaseTiming"			= "リリースのタイミング";
+"RecordID"			= "レコード ID";
+"SelfTimingTime"		= "セルフタイマーの時間";
+
+"ImageSerialNumber"		= "画像のシリアル番号";
+"ContinuousDrive"		= "連続駆動";
+"FocusMode"			= "焦点モード";
+
+"ShootingMode"			= "撮影モード";
+"LensMaxMM"			= "レンズの最大 MM";
+"LensMinMM"			= "レンズの最小 MM";
+"WhiteBalanceIndex"		= "ホワイトバランス指数";
+"FlashExposureComp"		= "フラッシュ露出補正";
+"MeasuredEV"			= "測定 EV";
+
+"ISOSetting"			= "ISO 設定";
+"ColorMode"			= "カラーモード";
+"Quality"			= "品質";
+"WhiteBalanceMode"		= "ホワイトバランスモード";
+"SharpenMode"			= "鮮明モード";
+"FlashSetting"			= "フラッシュ設定";
+"ISOSelection"			= "ISO 選択";
+"ImageAdjustment"		= "画像調整";
+"LensAdapter"			= "レンズアダプタ";
+"FocusDistance"			= "焦点距離";
+"DigitalZoom"			= "デジタルズーム";
+
+
+"Image Detail" = "画像詳細";
+"Confirmation" = "確認";
+"Close" = "閉じる";
+"None of the location information. Do you change the location?" = "位置情報が見つかりません\n位置情報を変更しますか？";
+
+"LensSpecification" = "レンズ仕様";
+"Photos" = "画像一覧";
+"Restored your bought item" = "購入済みの商品が復元されました";
+"Remove advertisement" = "広告の削除";
+"Restore" = "復元";
+"Purchase" = "購入";
+"Review the app" = "このアプリを評価";
+"Facebook fun site" = "Facebookファンサイト";
+"Share the app via Twitter" = "Twitterでシェア";
+"Share the app via Facebook" = "Facebookでシェア";
+"the recommendation app!\n\"Photo Info! - 写真情報、撮影位置確認\"\n#PhotoInfo!\nhttps://goo.gl/9TrJNf" = "オススメアプリ！\n\"Photo Info! - 写真情報、撮影位置確認\"\n#PhotoInfo!\nhttps://goo.gl/9TrJNf";
+
+"Horizontal (normal)" = "無回転";
+"Mirror horizontal" = "左右反転";
+"Rotate 180" = "180度回転";
+"Mirror vertical" = "上下反転";
+"Mirror horizontal and rotate 270 CW" = "時計回り90度＋左右反転";
+"Rotate 90 CW" = "時計回り90度";
+"Mirror horizontal and rotate 90 CW" = "反時計回り90度＋左右反転";
+"Rotate 270 CW" = "反時計回り90度";
+
+"Auto Exposure" = "自動";
+"Manual Exposure" = "マニュアル";
+"Auto Bracket" = "オートブラケット";
+
+
+"Auto" = "自動";
+"Manual" = "マニュアル";
+
+"Not defined" = "未定義";
+"Normal program" = "通常プログラム";
+"Aperture priority" = "絞り優先";
+"Shutter priority" = "シャッター速度優先";
+"Creative program" = "低速プログラム";
+"Action program" = "高速プログラム";
+"Portrait mode" = "ポートレート";
+"Landscape mode" = "風景";
+
+"No absolute unit of measurement" = "単位不明";
+"Inch" = "インチ";
+"Centimeter" = "センチ";
+
+"Not defined" = "未定義";
+"One-chip color area sensor" = "単版カラーセンサー";
+"Two-chip color area sensor" = "2板カラーセンサー";
+"Three-chip color area sensor" = "3板カラーセンサー";
+"Color sequential area sensor" = "色順次カラーセンサー";
+"Trilinear sensor" = "3線リニアセンサー";
+"Color sequential linear sensor" = "色順次リニアセンサー";
+
+"Standard" = "スタンダード";
+"Landscape" = "風景";
+"Portrait" = "ポートレート";
+"Night scene" = "夜景";
+
+"Unknown" = "不明";
+"Average" = "平均測光";
+"CenterWeightedAverage" = "中央重点測光";
+"Spot" = "スポット測光";
+"MultiSpot" = "マルチスポット測光";
+"Pattern" = "マルチパターン測光";
+"Partial" = "部分測光";
+
+"Flash did not fire" = "ストロボ発光せず";
+"Flash fired" = "ストロボ発光";
+"Strobe return light not detected" = "ストロボ発光(ﾘﾀｰﾝ未検出)";
+"Strobe return light detected" = "ストロボ発光(ﾘﾀｰﾝ検出)";
+"Flash fired, compulsory flash mode" = "強制発光";
+"Flash fired, compulsory flash mode, return light not detected" = "強制発光(ﾘﾀｰﾝ未検出)";
+"Flash fired, compulsory flash mode, return light detected" = "強制発光(ﾘﾀｰﾝ検出)";
+"Flash did not fire, compulsory flash mode" = "発光禁止";
+"Flash did not fire, auto mode" = "発光せず(auto)";
+"Flash fired, auto mode" = "発光(auto)";
+"Flash fired, auto mode, return light not detected" = "発光(auto,ﾘﾀｰﾝ未検出)";
+"Flash fired, auto mode, return light detected" = "発光(auto,ﾘﾀｰﾝ検出)";
+"No flash function" = "No flash function";
+"Flash fired, red-eye reduction mode" = "発光(赤目軽減)";
+"Flash fired, red-eye reduction mode, return light not detected" = "発光(赤目軽減,ﾘﾀｰﾝ未検出)";
+"Flash fired, red-eye reduction mode, return light detected" = "発光(赤目軽減,ﾘﾀｰﾝ検出)";
+"Flash fired, compulsory flash mode, red-eye reduction mode" = "強制発光(赤目軽減)";
+"Flash fired, compulsory flash mode, red-eye reduction mode, return light not detected" = "強制発光(赤目軽減,ﾘﾀｰﾝ未検出)";
+"Flash fired, compulsory flash mode, red-eye reduction mode, return light detected" = "強制発光(赤目軽減,ﾘﾀｰﾝ検出)";
+"Flash fired, auto mode, red-eye reduction mode" = "発光(auot,赤目軽減)";
+"Flash fired, auto mode, return light not detected, red-eye reduction mode" = "発光(auot,ﾘﾀｰﾝ未検出,赤目軽減)";
+"Flash fired, auto mode, return light detected, red-eye reduction mode" = "発光(auot,ﾘﾀｰﾝ検出,赤目軽減)";
+
+"Directly photographed" = "直接撮影された画像";
+
+"Above sea level" = "海抜0m以上";
+"Below sea level" = "海抜0m未満";
+
+"Option" = "オプション";
+"Detail" = "詳細";
+"Edit" = "編集";
+"Cancel" = "キャンセル";
+"Delete" = "削除";
+
+"Sorting" = "並べ替え";
+"Creation Date" = "作成日順";
+"Geotag" = "ジオタグ順";
+"Loading" = "読み込み中";
+"」Do you change here?" = "」へ変更しますか？";
+"Selection of the photo location infomation" = "写真位置情報の選択";
+"Editing the photo location" = "位置を編集";
+"Deleting the photo location" = "位置を削除";
+"Yes" = "はい";
+"No" = "いいえ";
+"Map" = "マップ";
+
+"Review the app, please" = "レビューのお願い";
+"Thank you for using the app:) Review tha app for updating the next feature" = "いつもアプリをご利用いただきまして、ありがとうございます！今後のアプリのアップデートため、レビューにご協力いただけますか？";
+"Don't review due to unsatisfied" = "レビューしない";
+"Review due to satisfied" = "レビューする";
+"Review later" = "後でレビューする";
+
+"Share the app to your friends" = "友達に教える";
+"Thank you for using the app:) Share tha app to your friends" = "いつもアプリをご利用いただきまして、ありがとうございます！友達にアプリをオススメしてもらえませんか？";
+"Shere via Twitter" = "Twitterで教える";
+"Shere via Facebook" = "Facebookで教える";
+"Error" = "エラー";
+"The permission of photos is denied. Please change it via setting app" = "「写真」へのアクセスが許可されていません。設定を変更してください。";
+"Cancel" = "キャンセル";
+"To Setting" = "設定画面へ";
