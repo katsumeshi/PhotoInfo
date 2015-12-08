@@ -41,7 +41,6 @@
 		65ACCA6C1BF804A4001126E6 /* PhotoSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ACCA661BF804A4001126E6 /* PhotoSpec.swift */; };
 		65ACCA6D1BF804A4001126E6 /* PhotoLoaderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ACCA671BF804A4001126E6 /* PhotoLoaderSpec.swift */; };
 		65ACCA6E1BF804A4001126E6 /* PhotoListViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ACCA681BF804A4001126E6 /* PhotoListViewModelSpec.swift */; };
-		65ACCA6F1BF804A4001126E6 /* ExifViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ACCA691BF804A4001126E6 /* ExifViewModelSpec.swift */; };
 		65ACCA701BF804A4001126E6 /* ExifSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ACCA6A1BF804A4001126E6 /* ExifSpec.swift */; };
 		65ACCA711BF804A4001126E6 /* AppReviewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ACCA6B1BF804A4001126E6 /* AppReviewSpec.swift */; };
 		65ACCA731BF804F3001126E6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65ACCA721BF804F3001126E6 /* Info.plist */; };
@@ -122,7 +121,6 @@
 		65ACCA661BF804A4001126E6 /* PhotoSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoSpec.swift; path = PhotoInfoTests/PhotoSpec.swift; sourceTree = SOURCE_ROOT; };
 		65ACCA671BF804A4001126E6 /* PhotoLoaderSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoLoaderSpec.swift; path = PhotoInfoTests/PhotoLoaderSpec.swift; sourceTree = SOURCE_ROOT; };
 		65ACCA681BF804A4001126E6 /* PhotoListViewModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoListViewModelSpec.swift; path = PhotoInfoTests/PhotoListViewModelSpec.swift; sourceTree = SOURCE_ROOT; };
-		65ACCA691BF804A4001126E6 /* ExifViewModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExifViewModelSpec.swift; path = PhotoInfoTests/ExifViewModelSpec.swift; sourceTree = SOURCE_ROOT; };
 		65ACCA6A1BF804A4001126E6 /* ExifSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExifSpec.swift; path = PhotoInfoTests/ExifSpec.swift; sourceTree = SOURCE_ROOT; };
 		65ACCA6B1BF804A4001126E6 /* AppReviewSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppReviewSpec.swift; path = PhotoInfoTests/AppReviewSpec.swift; sourceTree = SOURCE_ROOT; };
 		65ACCA721BF804F3001126E6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PhotoInfo/Info.plist; sourceTree = SOURCE_ROOT; };
@@ -245,14 +243,13 @@
 		65400D131BEB2EA600D08D5F /* PhotoInfoTests */ = {
 			isa = PBXGroup;
 			children = (
+				65ACCA681BF804A4001126E6 /* PhotoListViewModelSpec.swift */,
+				65661D3B1BF9AB5300C2897D /* MapViewModelSpec.swift */,
 				652231BB1BF86DB800C45932 /* Info.plist */,
 				65ACCA661BF804A4001126E6 /* PhotoSpec.swift */,
 				65ACCA671BF804A4001126E6 /* PhotoLoaderSpec.swift */,
-				65ACCA681BF804A4001126E6 /* PhotoListViewModelSpec.swift */,
-				65ACCA691BF804A4001126E6 /* ExifViewModelSpec.swift */,
 				65ACCA6A1BF804A4001126E6 /* ExifSpec.swift */,
 				65ACCA6B1BF804A4001126E6 /* AppReviewSpec.swift */,
-				65661D3B1BF9AB5300C2897D /* MapViewModelSpec.swift */,
 				651665811BFF5EC9008372BF /* ArrayUtilSpec.swift */,
 			);
 			name = PhotoInfoTests;
@@ -489,7 +486,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				65661D3C1BF9AB5300C2897D /* MapViewModelSpec.swift in Sources */,
-				65ACCA6F1BF804A4001126E6 /* ExifViewModelSpec.swift in Sources */,
 				65ACCA711BF804A4001126E6 /* AppReviewSpec.swift in Sources */,
 				65ACCA6D1BF804A4001126E6 /* PhotoLoaderSpec.swift in Sources */,
 				65ACCA701BF804A4001126E6 /* ExifSpec.swift in Sources */,

@@ -12,36 +12,55 @@ import Nimble
 @testable import photoinfo
 
 class ArrayUtilSpec: QuickSpec {
+  
+  override func setUp() {
+    continueAfterFailure = false
+  }
+  
+  override func spec() {
     
-    override func setUp() {
-        continueAfterFailure = false
-    }
-    
-    override func spec() {
+    describe("ArrayUtil") {
+      
+      let photos = PhotoLoader().photos
+      let mockAnnotations = self.createMockAnnotations(photos)
+      
+      describe("getMaxDistance") {
+        let comparebleAnnotations = [mockAnnotations.first!, mockAnnotations.last!]
         
-        describe("ArrayUtil") {
-            let mockAnnotations = self.createMockAnnotations()
-            let comparebleAnnotations = [mockAnnotations.first!, mockAnnotations.last!]
-            
-            let maxDistance = mockAnnotations.getMaxDistance()
-            let comparebleDistance = comparebleAnnotations.getMaxDistance()
-            it("should be close") {
-                expect(maxDistance).to(beCloseTo(comparebleDistance))
-            }
+        let maxDistance = mockAnnotations.getMaxDistance()
+        let comparebleDistance = comparebleAnnotations.getMaxDistance()
+        it("should be close") {
+          expect(maxDistance).to(beCloseTo(comparebleDistance))
         }
+      }
+      
+      describe("check == of photo") {
+        it("should be true") {
+          expect(photos.first! == photos.first!).to(beTrue())
+        }
+      }
+      
+      describe("find") {
+        it("should be existed") {
+          let locatedPhoto = photos.filter{ $0.hasLocation }.first!
+          let (index, annotation) = mockAnnotations.find(locatedPhoto)
+          expect(index).to(beGreaterThanOrEqualTo(0))
+          expect(annotation.photo == locatedPhoto).to(beTrue())
+        }
+      }
     }
+  }
+  
+  func createMockAnnotations(photos:[Photo]) -> [CustomAnnotation] {
+    var mockAnnotations = [CustomAnnotation]()
+    let locatedPhoto = photos.filter { $0.hasLocation }.first!
     
-    func createMockAnnotations() -> [CustomAnnotation] {
-        var mockAnnotations = [CustomAnnotation]()
-        let photos = PhotoLoader().photos
-        let locatedPhoto = photos.filter { $0.hasLocation }.first!
-        
-        for _ in 1...5 {
-            let annotation = CustomAnnotation("", subtitle: "", image: UIImage()
-                                                , photo: locatedPhoto)
-            mockAnnotations.append(annotation)
-        }
-        return mockAnnotations
+    for _ in 1...5 {
+      let annotation = CustomAnnotation("", subtitle: "", image: UIImage()
+        , photo: locatedPhoto)
+      mockAnnotations.append(annotation)
     }
+    return mockAnnotations
+  }
 }
 

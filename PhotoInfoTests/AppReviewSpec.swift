@@ -11,45 +11,44 @@ import Quick
 import Nimble
 
 class AppReviewSpec: QuickSpec {
+  
+  override func setUp() {
+    continueAfterFailure = false
+  }
+  
+  override func spec() {
     
-    override func setUp() {
-        continueAfterFailure = false
+    beforeSuite {
+      NSUserDefaults.standardUserDefaults().removeObjectForKey("reviewed")
     }
     
-    override func spec() {
-        
-        beforeSuite {
-            NSUserDefaults.standardUserDefaults().removeObjectForKey("reviewed")
-        }
-        
-        afterSuite {
-            NSUserDefaults.standardUserDefaults().removeObjectForKey("reviewed")
-        }
-        
-        describe("showAppReview") {
-            
-            context("inclement four times") {
-                it("should be false") {
-                    expect(AppReview.canShow()).to(beFalse())
-                    expect(AppReview.canShow()).to(beFalse())
-                    expect(AppReview.canShow()).to(beFalse())
-                    expect(AppReview.canShow()).to(beFalse())
-                }
-            }
-            
-            context("fifth inclement") {
-                it("should be true") {
-                    expect(AppReview.canShow()).to(beTrue())
-                }
-            }
-            
-            context("sixth inclement") {
-                it("should be false") {
-                    expect(AppReview.canShow()).to(beFalse())
-                }
-            }
-            
-        }
+    afterSuite {
+      NSUserDefaults.standardUserDefaults().removeObjectForKey("reviewed")
     }
+    
+    describe("showAppReview") {
+      
+      context("inclement four times") {
+        it("should be false") {
+          expect(AppReview.canShow()).to(beFalse())
+          expect(AppReview.canShow()).to(beFalse())
+          expect(AppReview.canShow()).to(beFalse())
+          expect(AppReview.canShow()).to(beFalse())
+        }
+      }
+      
+      context("fifth inclement") {
+        it("should be true") {
+          expect(AppReview.canShow()).to(beTrue())
+        }
+      }
+      
+      context("sixth inclement") {
+        it("should be false") {
+          expect(AppReview.canShow()).to(beFalse())
+        }
+      }
+    }
+  }
 }
 

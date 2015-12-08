@@ -73,7 +73,6 @@ extension MapViewModel {
       }
     }
   }
-  
 }
 
 

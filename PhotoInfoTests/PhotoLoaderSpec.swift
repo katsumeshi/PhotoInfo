@@ -11,19 +11,19 @@ import Quick
 import Nimble
 
 class PhotoLoaderSpec: QuickSpec {
-    
-    override func setUp() {
-        continueAfterFailure = false
-    }
-    
-    override func spec() {
-        let photoLoader = PhotoLoader()
-        describe("PhotoLoader") {
-            describe("init") {
-                it ("should be grater than zero") {
-                    expect(photoLoader.photos.count).to(beGreaterThanOrEqualTo(0))
-                }
-            }
+  
+  override func setUp() {
+    continueAfterFailure = false
+  }
+  
+  override func spec() {
+    let photoLoader = PhotoLoader()
+    describe("PhotoLoader") {
+      describe("init") {
+        it ("should be grater than zero") {
+          expect(photoLoader.photos.count).to(beGreaterThanOrEqualTo(0))
         }
+      }
     }
+  }
 }
