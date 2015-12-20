@@ -21,7 +21,7 @@ build/
 *.xcuserstate
 
 # for Xcode4
-xcuserdata/
+*xcuserdata*
 UserInterfaceState.xcuserstate
 
 profile
