@@ -59,6 +59,9 @@
 		65E29F2D1B145F55003544A7 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E29F2C1B145F55003544A7 /* iAd.framework */; };
 		65FBC1B81C027E7700C94B4F /* PhotoLibraryUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FBC1B71C027E7700C94B4F /* PhotoLibraryUtil.swift */; };
 		7618010B1C0C52E6003F4981 /* TabType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7618010A1C0C52E6003F4981 /* TabType.swift */; };
+		76A9FB5A1C2751B3006F406F /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A9FB591C2751B3006F406F /* SettingViewController.swift */; };
+		76A9FB5D1C2751C6006F406F /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A9FB5B1C2751C6006F406F /* Purchase.swift */; };
+		76A9FB5E1C2751C6006F406F /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A9FB5C1C2751C6006F406F /* Review.swift */; };
 		76D5964F1C0F0879008067B1 /* ReactiveUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D5964E1C0F0879008067B1 /* ReactiveUI.framework */; };
 		76F0EF6A1C106E9D007F1BD9 /* CLGeocoderUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F0EF691C106E9D007F1BD9 /* CLGeocoderUtil.swift */; };
 		8F80F4DE1AFB066D00CB663C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F80F4DD1AFB066D00CB663C /* CoreLocation.framework */; };
@@ -129,6 +132,9 @@
 		65E29F2C1B145F55003544A7 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		65FBC1B71C027E7700C94B4F /* PhotoLibraryUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoLibraryUtil.swift; path = Classes/PhotoLibraryUtil.swift; sourceTree = "<group>"; };
 		7618010A1C0C52E6003F4981 /* TabType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabType.swift; sourceTree = "<group>"; };
+		76A9FB591C2751B3006F406F /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		76A9FB5B1C2751C6006F406F /* Purchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		76A9FB5C1C2751C6006F406F /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		76D5964E1C0F0879008067B1 /* ReactiveUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveUI.framework; path = Carthage/Build/iOS/ReactiveUI.framework; sourceTree = "<group>"; };
 		76F0EF691C106E9D007F1BD9 /* CLGeocoderUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLGeocoderUtil.swift; sourceTree = "<group>"; };
 		8F80F4DD1AFB066D00CB663C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -231,6 +237,7 @@
 		651BB82F1BE430800045910B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				76A9FB591C2751B3006F406F /* SettingViewController.swift */,
 				65ACCA411BF8032F001126E6 /* PhotoViewController.swift */,
 				65ACCA421BF8032F001126E6 /* TabBarController.swift */,
 				65ACCA401BF8032F001126E6 /* ExifViewController.swift */,
@@ -268,6 +275,8 @@
 		658BB1FC1BF81AC6001DA9B1 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				76A9FB5B1C2751C6006F406F /* Purchase.swift */,
+				76A9FB5C1C2751C6006F406F /* Review.swift */,
 				651FED251BF8131300950A79 /* ExifContent.swift */,
 				651FED071BF80DF000950A79 /* ExifParser.swift */,
 				651FED141BF80DF000950A79 /* ExifCategory.swift */,
@@ -502,13 +511,16 @@
 				651FED221BF8104600950A79 /* StringUtil.swift in Sources */,
 				7618010B1C0C52E6003F4981 /* TabType.swift in Sources */,
 				65ACCA851BF80A32001126E6 /* ExifViewController.swift in Sources */,
+				76A9FB5A1C2751B3006F406F /* SettingViewController.swift in Sources */,
 				65ACCA2F1BF802D0001126E6 /* ExifViewModel.swift in Sources */,
 				6516657F1BFF5E5D008372BF /* ArrayUtil.swift in Sources */,
 				65661D3F1BF9D81000C2897D /* MapViewController.swift in Sources */,
 				76F0EF6A1C106E9D007F1BD9 /* CLGeocoderUtil.swift in Sources */,
 				651FED201BF8104600950A79 /* ExifParser.swift in Sources */,
+				76A9FB5E1C2751C6006F406F /* Review.swift in Sources */,
 				65ACCA2E1BF802D0001126E6 /* PhotoViewModel.swift in Sources */,
 				651FED231BF8104600950A79 /* ExifCategory.swift in Sources */,
+				76A9FB5D1C2751C6006F406F /* Purchase.swift in Sources */,
 				65ACCA8C1BF80A45001126E6 /* Place.swift in Sources */,
 				65ACCA8E1BF80A45001126E6 /* AppReview.swift in Sources */,
 				65ACCA871BF80A32001126E6 /* TabBarController.swift in Sources */,
