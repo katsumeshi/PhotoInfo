@@ -19,7 +19,7 @@ The source code of the app is implemented in Swift 2.1 and using ReactiveCocoa a
 
 ## Install
 
-Available on [App Store](https://itunes.apple.com/jp/app/xie-zhenno-wei-zhi-qing-baono/id998243965?mt=8) or you can download and open `photoinfo.xcodeproj` then run it
+open `photoinfo.xcodeproj` then run it
 
 ## Licence
 
